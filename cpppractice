@@ -1,0 +1,15 @@
+#includde <iostream>
+
+int main() {
+  int n = 0;
+  std::cout << "Put in any number man: \n";
+  std::cin >> n;
+  
+  if ( n % n == 0 && n % 1 ==0) {
+    std::cout << "The number " << n << " is a prime number. \n";
+  }
+  else {
+  std:cout << "The number " << n << " is not a prime number. \n";
+  }
+  return 0;
+}
